@@ -3,7 +3,7 @@ import Hero from "../fragments/Hero";
 import Navbar from "../fragments/Navbar";
 
 /* eslint-disable react/prop-types */
-export default function HomeLayout({ children }) {
+export default function HomeLayout() {
     return (
         <div className='flex w-full min-h-screen max-h-screen overflow-hidden'>
             <div className=''>
@@ -15,9 +15,6 @@ export default function HomeLayout({ children }) {
                 </div>
                 <div>
                     <Hero />
-                </div>
-                <div className='overflow-y-auto'>
-                    {children}
                 </div>
             </div>
         </div>

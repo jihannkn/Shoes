@@ -1,3 +1,7 @@
+import { FaHouse } from "react-icons/fa6";
+
+
+
 export default function Aside() {
     return (
         <aside className="w-[8%] h-screen pt-[10px] pr-[15px] pb-[15px] pl-[20px] flex flex-col items-center text-[#4d4f57] relative">
