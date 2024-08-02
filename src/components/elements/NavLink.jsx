@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const NavLink = ({ label }) => {
     return (
         <p>{label}</p>

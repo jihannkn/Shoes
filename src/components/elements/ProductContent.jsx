@@ -1,4 +1,4 @@
-import image1 from '../../../public/assets/images/image1.png'
+/* eslint-disable react/prop-types */
 // export default function ProductContent() {
 //     return(
 //         <div className="card">

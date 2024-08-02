@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import MainLayout from "../components/layouts/MainLayout";
-
-export default function Home() {
-    return (
-      <MainLayout>
-          Home
-      </MainLayout>
-    )
-  }
-=======
 import UserProduct from "../components/elements/UserProduct";
 import NavProduct from "../components/fragments/NavProduct";
 import PruductList from "../components/fragments/PruductList";
@@ -26,4 +15,3 @@ export default function Home() {
             </div>
     )
 }
->>>>>>> diki/main

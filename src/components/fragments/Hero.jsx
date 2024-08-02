@@ -1,4 +1,4 @@
-import image1 from '../../../public/assets/images/image1.png'
+import image1 from '../../../public/assets/images/image1.png';
 // import PruductList from './PruductList'
 // import UserProduct from '../elements/UserProduct'
 import GraphCandle from '../elements/GraphCandle'
@@ -45,8 +45,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="relative">
-                  <img src={image1} alt="" className="absolute w-[340px] right-0 mr-[80px] rotate-[-9deg]"
-                  />
+                  <img src={image1} alt="" className="absolute w-[340px] right-0 mr-[80px] rotate-[-9deg]" />
                   <h1 className="absolute bottom-0 right-0 text-[35px] rotate-[-30deg] mb-[10px]">
                     10k+
                   </h1>
